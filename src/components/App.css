@@ -1,0 +1,14 @@
+@import "../assets/css/shared.css";
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: var(--light-font);
+	padding: 50px;
+	background: var(--color-grey);
+}
+
+.main .header {
+	color: var(--color-darkgrey);
+}
