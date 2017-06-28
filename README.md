@@ -1,4 +1,9 @@
+![alt text](https://d1m54pdnjzjnhe.cloudfront.net/pngineer/4bf78b90-5bfc-11e7-86a2-695af5a15c90.png)
+
+
 ### To start the app run:
+
+- Ensure you are using Node version 7+
 
 - ```yarn && yarn start```
 
