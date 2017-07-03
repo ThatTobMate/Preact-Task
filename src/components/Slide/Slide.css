@@ -1,0 +1,20 @@
+.slide {
+	display: inline-block;
+	width: 100px;
+	height: 200px;
+	text-align: center;
+	background: white;
+	position: absolute;
+	/*transform: translate(-200px)*/
+}
+
+.animate{
+	-webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+}

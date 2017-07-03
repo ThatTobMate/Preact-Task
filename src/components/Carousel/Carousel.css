@@ -1,0 +1,54 @@
+.carouselOuter {
+	width: 660px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.carouselInner {
+	width: 1000px;
+	white-space: nowrap;
+	position: relative;
+	height: 300px;
+}
+
+.leftArrow {
+	width: 50px;
+	height: 50px;
+	background: blue;
+	position: absolute;
+	left: 0;
+}
+
+.rightArrow {
+	width: 50px;
+	height: 50px;
+	background: red;
+	position: absolute;
+	right: 0;
+}
+
+/*.t122v3-transition-container{
+  z-index: 10001;
+  width: 80%;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  margin: 0 auto;
+}
+
+.t122v3-hide{
+  display: none;
+}
+
+.t122v3-show-transition {
+  left: 15%;
+  opacity: 1 !important;
+}
+
+.t122v3-hide-transition {
+  top: 15%;
+  opacity: 0 !important;
+}*/
