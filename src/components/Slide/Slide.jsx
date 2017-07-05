@@ -7,11 +7,11 @@ class Slide extends Component {
 		
 	}
 
-	render ({ idx, name, width, padding }) {
-		const left = idx * (width + padding)
-
+	render ({ idx, name, width, padding, transform, opacity }) {
+		const left = (idx - 1) * (width + padding)
+		
 		return (
-			<div class={`${styles.slide} ${styles.animate}`} style={{ width, left }}>
+			<div class={`${styles.slide} ${styles.animate}`} style={{ width, left, opacity, transform: `translate(${transform}px)` }}>
 				{name}
 			</div>
 		)

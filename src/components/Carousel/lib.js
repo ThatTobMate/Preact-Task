@@ -1,7 +1,7 @@
 const carouselOptions = {
   'desktop': {
     breakPoint: 1000,
-    products: 3
+    products: 4
   },
   'tablet': {
     breakPoint: 600,
